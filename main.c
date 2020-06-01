@@ -5,6 +5,7 @@ int main()
     int x=0;
     do
     {
+        printf("Arbol Genealogico\n");
         printf("Elige de quienes quieres conocer los nombres: \n");
         printf("1- Tatarabuelos\n");
         printf("2- Abuelos Paternos y maternos\n");
@@ -12,6 +13,7 @@ int main()
         printf("4-Madre y tios maternnos\n");
         printf("5- Mis Hermanas\n");
         printf("6- cuñado y Sobrinos\n");
+        printf("7- Salir");
         scanf("%d",&x);
         switch(x)
         {
@@ -61,7 +63,7 @@ int main()
                 printf("\n\n");
                 break;
                 default:
-                printf("Opcion no valida\n");
+                printf("Hasta luego, el programa ha acabado\n");
                 printf("\n\n");
         }
         
